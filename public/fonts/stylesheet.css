@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url('Frutiger.eot');
+    src: url('Frutiger.eot?#iefix') format('embedded-opentype'),
+        url('Frutiger.woff2') format('woff2'),
+        url('Frutiger.woff') format('woff'),
+        url('Frutiger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMTBold.eot');
+    src: url('ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMTBold.woff2') format('woff2'),
+        url('ArialRoundedMTBold.woff') format('woff'),
+        url('ArialRoundedMTBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
