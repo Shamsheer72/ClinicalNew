@@ -65,7 +65,7 @@
                   <div class="verify-call">
                     <ul class="m-0 p-0">
                       <li class="call-verify">
-                        <a href="{{url('/create/profile')}}">Continue</a>
+                        <a href="{{url('/create/profile')}}">CONTINUE</a>
                       </li>
                     </ul>
                   </div>

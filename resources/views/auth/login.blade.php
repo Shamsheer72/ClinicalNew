@@ -29,6 +29,16 @@
       <div class="new-accc">
         <h3>New to Clinical Match? <a class="btn-typo" href="{{ route('register') }}">CREATE YOUR NEW ACCOUNT</a></h3>
       </div>
+      <div class="sign-up-social">
+            <ul>
+              <li class="login-facebook">
+                <a href="{{ url('/login/facebook') }}"><i class="fa fa-facebook" aria-hidden="true"></i> Sign up with Facebook</a>
+              </li>
+              <li class="login-google">
+                <a href="{{ url('/login/google') }}"><img src="images/google.png"> Sign up with Google</a>
+              </li>
+            </ul>
+      </div>
         <div class="login-form-pg">
           <h3>Login</h3>
           <form method="POST" action="{{ route('login') }}">

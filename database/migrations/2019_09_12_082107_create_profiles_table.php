@@ -21,6 +21,8 @@ class CreateProfilesTable extends Migration
             $table->string('patientfirst')->nullable();
             $table->string('patientlast')->nullable();
             $table->string('patientdate')->nullable();
+            $table->tinyInteger('clinicalstatus')->default('0');
+            $table->tinyInteger('medicalstatus')->default('0');
             $table->string('file_name')->nullable();
             $table->string('addressinfo')->nullable();
             $table->string('contactinfo')->nullable();
